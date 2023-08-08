@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stream-openai"
+version = "0.1.0"
+description = ""
+authors = ["harupy <hkawamura0130@gmail.com>"]
+readme = "README.md"
+packages = [{include = "stream_openai"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.101.0"
+uvicorn = "^0.23.2"
+openai = "^0.27.8"
+black = "^23.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
